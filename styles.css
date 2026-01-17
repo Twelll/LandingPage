@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to bottom,
+            #D9CCC5 0%,
+            #BFA38A 40%,
+            #7C8C3F 100%);
+
+    margin: 0;
+    min-height: 100vh;
+}
+
+.top-bar {
+    padding: 10px 10px 10px;
+    background-color: white;
+    display: flex;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.box { 
+    height: 100px;
+    width: 100px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
