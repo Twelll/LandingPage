@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background: linear-gradient(to bottom,
             #D9CCC5 0%,
@@ -9,19 +11,40 @@ body {
 }
 
 .top-bar {
+    font-family: roboto, sans-serif;
     padding: 10px 10px 10px;
     background-color: white;
     display: flex;
-    gap: 200px;
+    gap: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.top-bar a {
+    color: black;
+    font-weight: normal;
+}
+.top-bar a:hover span {
+    color: #103778;
+    text-decoration: underline;
+}
+
+.card {
+    display: flex;
+    margin-top: 1em;
+    height: 15em;
+    width: 30em;
+    background-color: white;
     border-radius: 10px;
 }
 
-.box { 
-    height: 100px;
-    width: 100px;
-}
-
-.img {
-    width: 300px;
+.card-img img{
+    width: 250px;
     height: auto;
 }
+
+.card-text {
+    text-align: center;
+    margin: 10px;
+    margin-right: 10px;
+} 
+
