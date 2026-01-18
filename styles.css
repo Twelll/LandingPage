@@ -165,7 +165,7 @@ strong {
     padding: 0.625rem 3.125rem 4.06rem;
     border: solid #000;
     border-radius: 10%;
-    filter: invert(32%) sepia(50%) saturate(400%) hue-rotate(80deg); 
+    filter: invert(32%) sepia(50%) saturate(400%) hue-rotate(80deg);
 }
 
 
@@ -205,33 +205,36 @@ footer img {
         margin: 15px auto;
         text-align: center;
     }
+
     .card img {
         width: 100%;
         height: auto;
     }
 
     .card-secundary {
-        flex-wrap: wrap; /* OBRIGATÓRIO: Permite quebrar linha */
-        width: 100%;     /* Ocupa a tela toda */
-        gap: 20px;       /* Espaço menor entre produtos */
-        padding: 0 10px; /* Um respiro nas laterais */
+        flex-wrap: wrap;
+        /* Quebrar linha */
+        width: 100%;
+        gap: 20px;
+        padding: 0 10px;
         box-sizing: border-box; /* Garante que o padding não estoure a tela */
+        
     }
 
     .qld-area {
-        flex-direction: column; /* Um embaixo do outro */
-        gap: 30px; /* Remove aquele gap gigante de 120px */
+        flex-direction: column;
+        gap: 30px;
         align-items: center;
         width: 100%;
     }
-    
+
     .qld-area img {
-        padding: 10px; /* Reduz o padding excessivo da imagem */
+        padding: 10px;
     }
 
     .top-bar {
-        flex-direction: column; /* Empilha as informações */
-        gap: 15px; /* Remove o gap de 100px */
+        flex-direction: column;
+        gap: 15px;
         text-align: center;
         padding: 20px;
     }
