@@ -10,11 +10,6 @@ body {
     flex-direction: column;
 }
 
-.card-green img {
-    border-radius: 5%;
-}
-
-
 body section.qld-area {
     margin: 10px auto;
 }
@@ -26,7 +21,6 @@ body section.card {
 body section.card-secundary {
     Margin: 10px auto;
 }
-
 
 .top-bar {
     justify-content: center;
@@ -86,6 +80,7 @@ body section.card-secundary {
 .card-green img {
     width: 80px;
     height: auto;
+    border-radius: 5%;
 }
 
 .card-middle {
@@ -101,7 +96,7 @@ body section.card-secundary {
 }
 
 .btn-primary {
-    background-color: #5a622c;
+    background-color: #9aa84c;
 }
 
 .btn-secundary {
@@ -135,7 +130,7 @@ body section.card-secundary {
 }
 
 del {
-    color: #999;
+    color: #585858;
     margin-right: 8px;
 }
 
@@ -156,7 +151,7 @@ strong {
 .qld-itens {
     text-align: center;
     font-weight: 700;
-    color: #29a734;
+    color: #034619;
 }
 
 .qld-area img {
