@@ -10,12 +10,17 @@ body {
     flex-direction: column;
 }
 
+.card-green img {
+    border-radius: 5%;
+}
+
+
 body section.qld-area {
     margin: 10px auto;
 }
 
 body section.card {
-    Margin: 10px auto;
+    margin: 10px auto;
 }
 
 body section.card-secundary {
@@ -26,10 +31,10 @@ body section.card-secundary {
 .top-bar {
     justify-content: center;
     font-family: roboto, sans-serif;
-    padding: 10px 10px 10px;
+    padding: 0.625rem;
     background-color: #f0e2ce;
     display: flex;
-    gap: 100px;
+    gap: 6.25rem;
 }
 
 .top-bar a {
@@ -44,7 +49,7 @@ body section.card-secundary {
 }
 
 .card {
-    margin: 30px 10px 10px 10px;
+    margin: 30px auto;
     display: flex;
     align-items: normal;
     gap: 20px;
@@ -54,11 +59,13 @@ body section.card-secundary {
     align-items: center;
     border-bottom: solid #999;
     padding-bottom: 10px;
+    flex-direction: row;
 }
 
 .card img {
     border-radius: 5px;
 }
+
 
 .card-green {
     display: flex;
@@ -87,9 +94,9 @@ body section.card-secundary {
 }
 
 .btn {
-    width: 160px;
-    height: 50px;
-    border-radius: 5px;
+    width: 10rem;
+    height: 3.125rem;
+    border-radius: 0.31rem;
     cursor: pointer;
 }
 
@@ -110,9 +117,9 @@ body section.card-secundary {
 }
 
 .card-secundary img {
-    width: 250px;
-    height: 150px;
-    border-radius: 5px;
+    width: 15.625rem;
+    height: 9.375rem;
+    border-radius: 0.31rem;
 }
 
 .card-secundary img:hover {
@@ -141,9 +148,9 @@ strong {
     justify-content: center;
     width: 80%;
     display: flex;
-    gap: 120px;
+    gap: 7.5rem;
     border-bottom: solid #999;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 
 .qld-itens {
@@ -153,9 +160,9 @@ strong {
 }
 
 .qld-area img {
-    width: 70px;
+    width: 4.375rem;
     height: auto;
-    padding: 10px 50px 65px;
+    padding: 0.625rem 3.125rem 4.06rem;
     border: solid #000;
     border-radius: 10%;
     filter: invert(32%) sepia(50%) saturate(400%) hue-rotate(80deg); 
@@ -185,5 +192,53 @@ footer img {
     align-items: center;
     text-align: center;
     background-color: #91775a;
-    height: 250px;
+    width: 100%;
+    height: 15.625rem;
+}
+
+/*Conversao para celular*/
+@media (max-width: 768px) {
+
+    .card {
+        flex-direction: column;
+        width: 95%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-secundary {
+        flex-wrap: wrap; /* OBRIGATÓRIO: Permite quebrar linha */
+        width: 100%;     /* Ocupa a tela toda */
+        gap: 20px;       /* Espaço menor entre produtos */
+        padding: 0 10px; /* Um respiro nas laterais */
+        box-sizing: border-box; /* Garante que o padding não estoure a tela */
+    }
+
+    .qld-area {
+        flex-direction: column; /* Um embaixo do outro */
+        gap: 30px; /* Remove aquele gap gigante de 120px */
+        align-items: center;
+        width: 100%;
+    }
+    
+    .qld-area img {
+        padding: 10px; /* Reduz o padding excessivo da imagem */
+    }
+
+    .top-bar {
+        flex-direction: column; /* Empilha as informações */
+        gap: 15px; /* Remove o gap de 100px */
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
 }
