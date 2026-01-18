@@ -5,9 +5,6 @@ Landing page simples e responsiva desenvolvida com **HTML5** e **CSS3**, criada 
 🔗 **Site online (GitHub Pages):**
 [https://twelll.github.io/LandingPage/](https://twelll.github.io/LandingPage/)
 
-📁 **Repositório:**
-[https://github.com/Twelll/LandingPage](https://github.com/Twelll/LandingPage)
-
 ---
 
 ## 🛠️ Tecnologias utilizadas
