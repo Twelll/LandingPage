@@ -1,50 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    background: linear-gradient(to bottom,
-            #D9CCC5 0%,
-            #BFA38A 40%,
-            #7C8C3F 100%);
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf2e7;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body section.card {
+    justify-content: center;
 }
 
 .top-bar {
+    justify-content: center;
     font-family: roboto, sans-serif;
     padding: 10px 10px 10px;
-    background-color: white;
+    background-color: #f0e2ce;
     display: flex;
-    gap: 50px;
-    border-radius: 10px;
-    margin-top: 10px;
+    gap: 100px;
 }
+
 .top-bar a {
     color: black;
     font-weight: normal;
+    text-decoration: none;
 }
+
 .top-bar a:hover span {
-    color: #103778;
+    color: #025eff;
     text-decoration: underline;
 }
 
 .card {
+    margin: 30px 10px 10px 10px;
     display: flex;
-    margin-top: 1em;
-    height: 15em;
-    width: 30em;
-    background-color: white;
-    border-radius: 10px;
+    align-items: normal;
+    gap: 20px;
+    width: 50%;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.card-img img{
-    width: 250px;
-    height: auto;
+.card img {
+    border-radius: 5px;
 }
 
-.card-text {
+.card-green {
+    display: flex;
+    flex-direction: column;
+    /* empilha título, texto e botões */
+    justify-content: center;
+    /* centro vertical */
+    align-items: center;
+    /* centro horizontal */
+
+    background: linear-gradient(90deg, #C8F4C6 10%, #71A86F, #214e1f);
+    height: 20em;
     text-align: center;
-    margin: 10px;
-    margin-right: 10px;
-} 
+    gap: 16px;
+    /* espaço entre os blocos */
+}
 
+.card-middle {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #5a622c;
+}
+
+.btn-secundary {
+    background-color: #b0895c;
+}
+
+.card-secundary {
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-secundary img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.card-product {
+    text-align: center;
+}
+
+del {
+    color: #999;
+    margin-right: 8px;
+}
+
+strong {
+    color: #1A4A18;
+    font-size: 1.1em;
+}
