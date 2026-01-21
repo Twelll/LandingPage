@@ -40,7 +40,6 @@ LandingPage/
 ## ⚡Funcionalidades futuras
 * Novas páginas
 * Integração com whatsapp
-* Mais seções
 
 ---
 
