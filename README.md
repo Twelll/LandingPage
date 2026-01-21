@@ -1,6 +1,6 @@
 # Heros Móveis – Landing Page
 
-Landing page simples e responsiva desenvolvida com **HTML5** e **CSS3**, criada para fins de aprendizado.
+Landing page simples e responsiva desenvolvida com **HTML5**, **CSS3** e **Javascript**, criada para fins de aprendizado.
 
 🔗 **Site online (GitHub Pages):**
 [https://twelll.github.io/LandingPage/](https://twelll.github.io/LandingPage/)
@@ -11,6 +11,7 @@ Landing page simples e responsiva desenvolvida com **HTML5** e **CSS3**, criada 
 
 * HTML5
 * CSS3
+* Javascript
 
 Projeto estático, sem uso de frameworks ou JavaScript.
 
@@ -22,6 +23,7 @@ Projeto estático, sem uso de frameworks ou JavaScript.
 LandingPage/
 ├── index.html
 ├── styles.css
+├── script.js
 ├── images/
 └── README.md
 ```
@@ -31,10 +33,11 @@ LandingPage/
 ## ✨ O que o site contém
 
 * Top bar com informações de contato
-* Seção principal (hero)
+* Seção principal (heros)
 * Seção "Sobre nós"
 * Botões
 * Layout simples e organizado
+* Carrosel com JS
 
 ---
 
