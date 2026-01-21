@@ -12,9 +12,7 @@ Landing page simples e responsiva desenvolvida com **HTML5**, **CSS3** e **Javas
 * HTML5
 * CSS3
 * Javascript
-
-Projeto estático, sem uso de frameworks ou JavaScript.
-
+  
 ---
 
 ## 📂 Estrutura do projeto
@@ -38,6 +36,11 @@ LandingPage/
 * Botões
 * Layout simples e organizado
 * Carrosel com JS
+
+## ⚡Funcionalidades futuras
+* Novas páginas
+* Integração com whatsapp
+* Mais seções
 
 ---
 
