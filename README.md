@@ -22,6 +22,7 @@ LandingPage/
 ├── index.html
 ├── styles.css
 ├── script.js
+├── license
 ├── images/
 └── README.md
 ```
