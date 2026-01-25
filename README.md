@@ -57,4 +57,4 @@ O site está publicado gratuitamente utilizando **GitHub Pages**.
 
 ---
 
-Projeto criado para estudo e prática de desenvolvimento web.
+💡Projeto criado para estudo e prática de desenvolvimento web.
